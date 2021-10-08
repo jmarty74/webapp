@@ -28,7 +28,7 @@ public class Home extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		Person user = new Person("Julien", "Marty");
+		Person user = new Person("John", "Malkop");
 		response.getWriter().append("Hello " + user.getFirstName()).append(request.getContextPath());
 	}
 
